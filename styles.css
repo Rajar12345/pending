@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #3798c5;
+}
+
+tr:nth-child(even) {
+    background-color: #bebaba;
+}
+
+tr:nth-child(odd) {
+    background-color: #bebaba;
+}
+
+
+.approve-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.disapprove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
