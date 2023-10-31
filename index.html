@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+<script defer src="/Pending Request (2)/request.js"></script>
+<script defer src="/main_page/data.js"></script>
 <body>
     <table>
         <tr>
@@ -22,19 +24,12 @@
             <td>20-Dec-2023 5:00 am</td>
             <td>27-Dec-2023 5:00 am</td>
             <td>
-            <label class="approve-button" for="approve-checkbox1">Approve</label>
-            <input type="checkbox" name="approve-checkbox1" id="approve-checkbox1">
-            <label class="disapprove-button" for="disapprove-checkbox1">Disapprove</label>
-            <input type="checkbox" name="disapprove-checkbox1" id="disapprove-checkbox1">
-        </td>
-        <td>
-            <span class="serial-number">Serial Number: <span id="serialNumber1"></span></span>
-        </td>
-            <div id="myModal" class="modal">
-    <div class="modal-content">
-        <span id="popupMessage">Done</span>
-    </div>
-</div>
+                <label class="approve-button" for="checkbox1">Approve</label>
+                <input type="checkbox" name="checkbox1" id="checkbox1_0" value="Approved">
+                <label class="disapprove-button" for="checkbox2">Disapprove</label>
+                <input type="checkbox" name="checkbox2" id="checkbox2_0" value="Disapproved">
+                <button type="button" onclick="submitForm()">Submit</button>
+            </td>
         </tr>
         <tr>
             <td>L123457</td>
@@ -43,20 +38,14 @@
             <td>Work</td>
             <td>15-Jan-2024 8:00 am</td>
             <td>20-Jan-2024 6:00 pm</td>
-           <td>
-            <label class="approve-button" for="approve-checkbox1">Approve</label>
-            <input type="checkbox" name="approve-checkbox1" id="approve-checkbox1">
-            <label class="disapprove-button" for="disapprove-checkbox1">Disapprove</label>
-            <input type="checkbox" name="disapprove-checkbox1" id="disapprove-checkbox1">
-        </td>
-        <td>
-            <span class="serial-number">Serial Number: <span id="serialNumber1"></span></span>
-        </td>
-        <div id="myModal" class="modal">
-    <div class="modal-content">
-        <span id="popupMessage">Done</span>
-    </div>
-</div>    
+            <td>
+                <label class="approve-button" for="checkbox1">Approve</label>
+                <input type="checkbox" name="checkbox1" id="checkbox1_0" value="Approved">
+                <label class="disapprove-button" for="checkbox2">Disapprove</label>
+                <input type="checkbox" name="checkbox2" id="checkbox2_0" value="Disapproved">
+                <button type="button" onclick="submitForm(0)">Submit</button>
+
+            </td>
         </tr>
         <tr>
             <td>L123456</td>
@@ -66,19 +55,12 @@
             <td>20-Dec-2023 5:00 am</td>
             <td>27-Dec-2023 5:00 am</td>
             <td>
-            <label class="approve-button" for="approve-checkbox1">Approve</label>
-            <input type="checkbox" name="approve-checkbox1" id="approve-checkbox1">
-            <label class="disapprove-button" for="disapprove-checkbox1">Disapprove</label>
-            <input type="checkbox" name="disapprove-checkbox1" id="disapprove-checkbox1">
-        </td>
-        <td>
-            <span class="serial-number">Serial Number: <span id="serialNumber1"></span></span>
-        </td>
-            <div id="myModal" class="modal">
-    <div class="modal-content">
-        <span id="popupMessage">Done</span>
-    </div>
-</div>
+                <label class="approve-button" for="checkbox1">Approve</label>
+                <input type="checkbox" name="checkbox1" id="checkbox1_0" value="Approved">
+                <label class="disapprove-button" for="checkbox2">Disapprove</label>
+                <input type="checkbox" name="checkbox2" id="checkbox2_0" value="Disapproved">
+                <button type="button" onclick="submitForm(0)">Submit</button>
+            </td>
         </tr>
     </table>
 </body>
