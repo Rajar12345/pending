@@ -32,7 +32,13 @@ tr:nth-child(odd) {
     padding: 5px 10px;
     cursor: pointer;
 }
-
+.submit{
+    background-color: rgb(17, 237, 237);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+}
 .disapprove-button {
     background-color: red;
     color: white;
